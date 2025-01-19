@@ -49,7 +49,6 @@ const Header = () => {
                             </div>
                         </div>
                     </div>
-
                     {/* Mobile Menu */}
                     {isOpen && (
                         <div className="md:hidden mt-10 rounded-md text-center">
@@ -66,7 +65,6 @@ const Header = () => {
                     )}
                 </nav>
             </div>
-
         </div>
     );
 };
