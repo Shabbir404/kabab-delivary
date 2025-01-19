@@ -3,6 +3,7 @@ import { Outlet } from 'react-router-dom';
 import Header from '../Header/Header';
 import '../../Css/Root.css'
 import About from '../../Pages/About/About';
+import Contact from '../../Pages/Contact/Contact';
 const Root = () => {
     return (
 
@@ -11,7 +12,7 @@ const Root = () => {
                 <Header />
                 <div className="relative">
                     <Outlet />
-                    <div className="mt-12 md:-mt-36 w-screen relative left-[50%] right-[50%] -mx-[50vw]">
+                    <div className="  mt-12 md:-mt-40 w-screen relative left-[50%] right-[50%] -mx-[50vw]">
                         <About />
                     </div>
                 </div>

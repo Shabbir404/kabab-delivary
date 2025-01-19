@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.overleyImg-contact {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../Images/contact.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    background-position: center;
+    padding-top: 2.5%;
+
+}
+
+.permanent-marker-regular-font {
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow:
+        1px 1px 0px orange,
+        /* Right and Down */
+        -2px -2px 0px orange,
+        /* Left and Up */
+        2px -2px 0px orange,
+        /* Right and Up */
+        -2px 2px 0px orange;
+    /* Left and Down */
+
+}
+
+@media (max-width: 768px) {
+    .overleyImg-contact {
+        position: absolute;
+        /* Change position to absolute */
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 5px;
+        /* Optional: Adjust padding for small screens */
+        height: 50%;
+        /* Optional: Adjust height to 100% */
+    }
+}

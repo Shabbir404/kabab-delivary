@@ -1,10 +1,11 @@
 import storeImg from '../../Images/store.jpg'
 import '../../Css/About.css'
 import { Link } from 'react-router-dom';
+import Contact from '../Contact/Contact';
 const About = () => {
     return (
         <div>
-            <div className=' bg-black'>
+            <div className=' bg-color '>
                 <div className='w-11/12 md:w-10/12  mx-auto p-6 '>
                     <div className='md:flex justify-between text-center'>
                         <div>
@@ -24,10 +25,9 @@ const About = () => {
                         </div>
 
                     </div>
-
-
                 </div>
             </div>
+
         </div>
     );
 };
